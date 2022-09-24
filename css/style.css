@@ -1,0 +1,23 @@
+body {
+	font-family: "Larsseit"; 
+	margin: 0;
+	display: flex; 
+	flex-direction: column;
+
+}
+
+
+.logo_text {
+	font-size: 24px;
+	font-weight: 600;
+	color: #62D0DF;
+	
+}
+
+
+@font-face {
+	font-family: "Larsseit"; 
+	src: url("../fonts/larsseit_regular.ttf") format("truetype");
+	font-style: normal; 
+	font-weight: normal;
+}
