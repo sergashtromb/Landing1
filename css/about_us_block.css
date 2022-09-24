@@ -1,0 +1,27 @@
+
+
+#about_us_block {
+	flex-grow: 1;
+	height: 300px; 
+	vertical-align: bottom;
+
+} 
+
+#about_us_block_words {
+	font-size: 16px;
+	color: #22356F;
+	position: relative;
+	width: 200px;
+	text-align: center; 
+	top: 100px;
+} 
+
+#about_us_block_main_text {
+	font-size: 24px;
+	line-height: 34px;
+	color: #22356F;
+	position: relative;
+	width: 500px;
+	top: 55px;
+	left: 400px;
+}

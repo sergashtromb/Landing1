@@ -1,4 +1,5 @@
 #first_block {
+	flex-grow: 1;
 	width: 100%;
 	background-color: #F4F9E2;
 	display: flex; 
@@ -61,7 +62,7 @@
 
 #first_block_content {
 
-	margin-left: 150px;
+	margin-left: 120px;
 	margin-top: 100px;
 } 
 
@@ -81,8 +82,9 @@
 	margin-bottom: 20px;	
 }
 
-#first_block_content_text p {
+#first_block_container_text_paragraph {
 	font-size: 24px;
+	line-height: 42px;
 	color: #22356F;
 	margin-top: 20px;
 	margin-bottom: 20px;		
@@ -106,4 +108,23 @@
 	background-color: #F9B640;
 	color: white;
 	transition: 0.2s;
+} 
+
+#contact_us {
+	font-size: 14px;
+	font-weight: 600;
+	color: white; 
+	margin: 0px 50px;
+	padding: 15px 20px; 
+	border-radius: 25px;
+	background-color: #62D0DF;
+	border: 0px solid white;
+	width: 150px;
+} 
+
+
+.logo_text {
+	font-size: 24px;
+	font-weight: 600; 
+	color: #62D0DF;
 }

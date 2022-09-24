@@ -1,0 +1,38 @@
+
+
+#second_block {
+	flex-grow: 1;
+	display: flex;
+	width: 100%; 
+	height: 100%;
+
+} 
+
+#second_block_content {
+	width: 100%;
+	flex-grow: 1; 
+	height: 604px;
+	background-color: #62D0DF;
+
+} 
+
+#second_block_content_text {
+	margin-top: 120px;
+	margin-left: 100px;
+	font-size: 20px;
+	color: white;
+	width: 400px;
+}
+
+#second_block_content_text h1 {
+	margin-bottom: 100px;
+}
+
+#second_block_content_text span {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+#second_block_image {
+	flex-grow: 1;	
+}
