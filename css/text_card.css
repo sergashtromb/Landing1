@@ -1,0 +1,32 @@
+#text_card {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+} 
+
+.text_card_row {
+	flex-grow: 1; 
+	display: flex;
+	flex-direction: row;
+} 
+
+.text_card_style {
+	margin: 0 auto;
+	width: 300px;
+	height: 150px;
+}   
+
+.text_card_style h1 {
+	font-weight: 300;
+	font-size: 28px;
+	color: #22356F;
+}
+.text_card_style p {
+	font-size: 16px; 
+	color: rgba(34, 53, 111, 0.5);
+}
+.text_card_one_card {
+	flex-grow: 1;
+}
